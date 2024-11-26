@@ -106,7 +106,7 @@ export default createEodash({
             ? {
                 id: "Datepicker",
                 type: "internal",
-                layout: { x: 5, y: 10, w: 1, h: 1 },
+                layout: { x: 6, y: 10, w: 1, h: 1 },
                 title: "Datepicker",
                 widget: {
                   name: "EodashDatePicker",
@@ -120,7 +120,7 @@ export default createEodash({
           return selected
             ? {
                 id: "Buttons",
-                layout: { x: 8, y: 0, w: 1, h: 1 },
+                layout: { x: 9, y: 0, w: 1, h: 1 },
                 title: "Buttons",
                 type: "internal",
                 widget: {
