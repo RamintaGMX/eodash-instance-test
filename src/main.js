@@ -41,7 +41,7 @@ export default createEodash({
         id: Symbol(),
         type: "internal",
         title: "Indicators",
-        layout: { x: 0, y: 0, w: 3, h: 6 },
+        layout: { x: 0, y: 0, w: 3, h: 4 },
         widget: {
           name: "EodashItemFilter",
           properties: {
@@ -54,7 +54,7 @@ export default createEodash({
         id: Symbol(),
         type: "internal",
         title: "Layer Control",
-        layout: { x: 0, y: 6, w: 3, h: 6 },
+        layout: { x: 0, y: 4, w: 3, h: 8 },
         widget: {
           name: "EodashLayerControl",
         },
