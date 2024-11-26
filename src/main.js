@@ -65,7 +65,7 @@ export default createEodash({
             ? {
                 id: "Information",
                 title: "Information",
-                layout: { x: 9, y: 0, w: 2.5, h: 12 },
+                layout: { x: 9, y: 0, w: 2, h: 12 },
                 type: "web-component",
                 widget: {
                   link: async () => await import("@eox/stacinfo"),
