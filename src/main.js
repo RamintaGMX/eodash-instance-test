@@ -11,7 +11,7 @@ export default createEodash({
       family: "Poppins",
       link: new URL("./assets/poppins.css", import.meta.url).href,
     },
-    logo: "/logo.png",
+    logo: "/geomatrix-logotipas.jpg",
     errorMessage:
       "something went wrong, please contact demo@email.com if the issue persists",
     footerText: "eodash instance template",
